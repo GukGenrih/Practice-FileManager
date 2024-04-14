@@ -1,0 +1,48 @@
+a{
+    text-decoration: none;
+}
+.title{
+    font-size: 18px;
+}
+.title:hover{
+    color: aqua;
+    text-decoration: underline;
+    transition-duration: 200ms;
+}
+.folder{
+    color: orange;
+}
+.folder:hover{
+    color: brown;
+    text-decoration: underline;
+    transition-duration: 200ms;
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.86);
+    z-index: 2;
+}
+.search_type{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.search{
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+    background: black;
+    font-weight: bold;
+}
+.search:hover{
+    background: white;
+    color: black;
+    transition-duration: 200ms;
+    font-weight: bold;
+
+}
